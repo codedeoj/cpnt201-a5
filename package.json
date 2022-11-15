@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/codedeoj/cpnt201-a5/issues"
   },
-  "homepage": "https://github.com/codedeoj/cpnt201-a5#readme"
+  "homepage": "https://github.com/codedeoj/cpnt201-a5#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }
