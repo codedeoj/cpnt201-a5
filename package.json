@@ -1,0 +1,23 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "NPM Tailwind Assignment",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedeoj/cpnt201-a5.git"
+  },
+  "keywords": [
+    "tailwind",
+    "html"
+  ],
+  "author": "Deoj Balcanao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codedeoj/cpnt201-a5/issues"
+  },
+  "homepage": "https://github.com/codedeoj/cpnt201-a5#readme"
+}
