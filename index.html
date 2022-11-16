@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="assets/css/output.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Hero Section</title>
+  <link rel="stylesheet" href="assets/css/output.css" />
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <!-- Navigation -->
+  <header class="bg-pink-500 p-4">
+    <nav class="container mx-auto flex flex-col p-5 md:flex-row flex-wrap justify-between items-center text-white">
+      <div class="text-4xl font-bold">Coffee</div>
+      <div>
+        <a class="ml-8 font-bold hover:underline" href="#">HOME</a>
+        <a class="ml-8 font-bold hover:underline" href="#">MENU</a>
+        <a class="ml-8 font-bold hover:underline" href="#">CONTACT</a>
+        <a class="ml-8 font-bold hover:underline" href="#">BLOG</a>
+      </div>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section class="bg-pink-50 pt-6">
+    <div class="container mx-auto flex px-5 pb-20 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="sm:text-4xl text-2xl font-bold mb-8">Order our best coffee blend and brew to begin your day.</h1>
+        <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis urna id volutpat lacus laoreet non curabitur gravida arcu. Molestie nunc non blandit massa.</p>
+        <a class="bg-pink-500 w-max cursor-pointer rounded py-2 px-4 text-white hover:bg-pink-600 font-medium" href="#">Order Now</a>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img src="https://images.pexels.com/photos/8059557/pexels-photo-8059557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="hero image">
+      </div>
+    </div>
+  </section>
 </body>
 </html>
