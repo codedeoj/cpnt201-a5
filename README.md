@@ -5,7 +5,7 @@
 
 **Author:** Deoj Balcanao
 
-**GH Pages:**
+**GH Pages:** https://codedeoj.github.io/cpnt201-a5/
 
 **GH Repo:** https://github.com/codedeoj/cpnt201-a5
 
